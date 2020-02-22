@@ -1,0 +1,46 @@
+o que define uma boa interface
+uma interface q o usuario n precise usar o manual para realizar suas tarefas
+
+
+custos de uma interaçao mal projetada
+
+
+
+
+
+é possivel criar uma boa interface para todos os usuarios
+depende de qual o seu tipo de clientela e o tamanho dela 
+
+
+
+
+
+wireframe x mokup x protótipo
+
+wireframe desenho a mae do projeto
+
+mokup telas n funcionais
+
+prototipo telas funcionais 
+__________________________________________________________________________________
+
+			
+			engenharia de SW e IHC
+
+	"de dentro p/fora" x "de fora p/ dentro"
+	
+	desenvolver tudo e dar para o usuario testar e alterar conforme o feedback
+	desenvolver um pedaço e dar para o usuario testar e alterar conforme o feedback
+	
+	1-Identificar as necessidades ----- entrevista,brainstorming,questionarios,imersao,grupo de foco
+	  1.1 requisitos func
+	  1.2 requisitos n func
+	2-Projeto
+	3-Desenvolvimento
+	4-Testes
+	5- Implantaçao
+---->diretrizes de IHC
+	apontam soluçoes,mas nao subtituem o design
+	foco na padronizaçao
+---->avaliaçao de IHC 
+	julgamento da qualidade/ident de problemas

@@ -1,0 +1,24 @@
+-> identificaçao das necessidades do usuario 
+	>TICs podem ser construidas...
+	de dentro pra fora
+		ou
+	de fora pra dentro
+	    interface   logica de negocio
+
+-> o que preciso saber do usuario?
+-> quais suas atividades
+	-no sistema
+	-fora do sisitema
+
+-> Familiaridade com tecnologia
+-> Conhecimento do dominio
+-> frequencia das atividades
+-> Gravidade em casos de erro
+__________________________________________________
+-> Técnicas p/ identificas as necessidades 
+	entrevista
+	questinario
+	imersão
+	grupo de foco/brainstorming
+
+
