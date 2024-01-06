@@ -1,0 +1,14 @@
+<div id="aluno-page">
+    <a href="/alunos">Voltar</a>
+    <div class="container">
+        <p>{{aluno.nome}} {{aluno.sobrenome}}.</p>
+
+        <div class="actions">
+            <a class="button-30" href="/alunos/edit/{{aluno.id}}">Editar</a>
+            <form action="/alunos/remove/{{aluno.id}}"  method="POST">
+            <input class="button-30" type="submit" value="Remover">
+            </form>
+        </div>
+
+    </div>
+</div>

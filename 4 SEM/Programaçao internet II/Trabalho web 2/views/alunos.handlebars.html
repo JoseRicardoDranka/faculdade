@@ -1,0 +1,8 @@
+<h1>Alunos cadastrados</h1>
+<div class="alunos-container">
+    {{#each alunos}}
+        <div><span class="bold">
+            ID: <a href="/alunos/{{this.id}}">{{this.id}}</a>
+            </span> - Nome do Aluno: {{this.nome}} {{this.sobrenome}} |Nota1: {{this.nota1}} |Nota2: {{this.nota2}} |Nota3: {{this.nota3}} |Média: {{this.media}}</div>
+    {{/each}}
+</div>

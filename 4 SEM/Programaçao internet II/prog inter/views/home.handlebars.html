@@ -1,0 +1,19 @@
+<h1>
+    o nome dele é {{user.nome}}{{user.sobrenome}}e ele tem {{user.idade}} anos !
+</h1>>
+
+{{#if autenticado}}
+<p>
+    voce esta autenticado no sistema,
+    <a href="/dashboard">clique aqui para acessar a area de membros</a>>
+</p>>
+{{/if}}
+
+
+{{#if aprovado}}
+<p>Parabens vc foi aprovado</p>>
+
+{{else}}
+<p>Se fodeu pau no seu cu</p>
+
+{{/if}}

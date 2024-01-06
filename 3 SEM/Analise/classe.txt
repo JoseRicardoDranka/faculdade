@@ -1,0 +1,2 @@
+Classe: é uma representaçao generica de um objeto do mundo real
+em uma classe sao colocadas caracteristicas(atributos) e açoes q um objeto deve fazer(methodo)

@@ -1,0 +1,17 @@
+<h1>Editar Professor</h1>
+<form action="/professores/edit" method="POST" enctype="multipart/form-data">
+    <input type="hidden" name="id" value={{professor._id}}>
+    <div class="form-control">
+        <label for="nome">Nome do professor:</label>
+        <input type="text" name="nome" placeholder="Digite o nome do professor" value="{{professor.nome}}">
+    </div>
+    <div class="form-control">
+        <label for="descricao">Descrição:</label>
+        <textarea name="descricao">{{professor.descricao}}</textarea>
+    </div>
+    <div class="form-control">
+        <label for="imagem">Imagem:</label>
+        <input type="file" name="imagem"/>
+    </div>
+    <input type="submit" class="button" value="Salvar">
+</form>

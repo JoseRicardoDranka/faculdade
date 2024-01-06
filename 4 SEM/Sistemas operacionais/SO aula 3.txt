@@ -1,0 +1,21 @@
+	PCB					Diagrama estado de processos
+|-----------------|		
+|                 |			      despacho		        CPU      termina
+|   contexto      |	novo->(Pronto)   	 ------>	     (execuçao)-------->
+|-----------------|		    /\	         <------		|	
+|                 |		    |		preenpçao		|
+|                 |		    |					|
+|   Pilha         |		    |-----(bloqueado/dromindo)<--------
+|~~~~~~~~~~~~~~~~~|
+|                 |						  E/S
+|                 |
+|                 |
+|~~~~~~~~~~~~~~~~~|
+|    var dinamica |
+|                 |										Bloqueado:impedido de continuar por algum motivo de execuçao(Sleep,Entrada/Saida,etc)
+|-----------------|										Pronto Suspenço: movido para memoria secundaria por falta de mem ram nao ganha CPU
+|      var        |										bloqueado Suspenço:movido para memoria secundaria por falta de mem ram nao ganha CPU
+|-----------------|
+|                 |
+|  Programa       |
+|-----------------|

@@ -1,0 +1,11 @@
+1 Você conhece o seu cliente?
+	Sim,na grande maioria publico entre 18 a 45 anos, entusiastas de velocidade, e fãs do automobilismo
+2 Que problema você resolve?
+	Baixa performance de motores a combustão, alta queima de combustiveis, alta taxa de emissao de poluentes
+3 Seu produto é mesmo a solução
+	Para pessoa que procuram esse tipo de serviço sim é uma otima solução
+4 Que valores a solução oferece
+	A completa satisfação do cliente
+5o mercado è grande o bastante?
+	Sim o mercado é gigante e tem poucas prestadoras de serviço especializadas num raio de 600km
+	

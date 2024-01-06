@@ -1,9 +1,10 @@
 import java.util.Scanner;
+
 public class Main {
     public static void main (final String []args){
         final Produto vpro[]= new Produto[10];
         final Venda v1[]=new Venda [5];
-        int i,j,r,l,x;
+        int i,j,l,x,sw,cont=1,cont2=0;
 		int w = 1;
         final Scanner ler = new Scanner(System.in);
         for (i = 0; i < 10; i++) {
@@ -31,11 +32,12 @@ public class Main {
         vpro[9].preco = 4000000.00f;
         // ----------------------------------------------
 
-        System.out.println("Escolha uma opcao \n 1.listar produtos \n 2.incluir Venda \n 3.listar Vendas");
-        r = ler.nextInt();
+        
         l = 1;
         while (w == 1) {
-            switch (r) {
+            System.out.println("Escolha uma opcao \n 1.listar produtos \n 2.incluir Venda \n 3.listar Vendas");
+            sw = ler.nextInt();
+            switch (sw) {
                 case 1:
                     for (i = 0; i < 10; i++) {
                         System.out.println(vpro[i].nome);
@@ -43,12 +45,13 @@ public class Main {
                     }
                     break;
                 case 2:
-                    for (i = 0; i < 5; i++) {
-                        v1[i] = new Venda();
-                    }
                     j = 0;
                     while (l == 1) {
+                        j=0;
                         while (j < 5) {
+                            for (i = 0; i < 5; i++) {
+                                v1[i] = new Venda();
+                            }
                             System.out.println("digite a data da venda");
                             String d1 = ler.nextLine();
                             d1 = ler.nextLine();
@@ -63,12 +66,15 @@ public class Main {
                                     x = ler.nextInt();
                                     v1[j].quantidade = x;
                                     System.out.println("produto cadastrado com sucesso");
+                                    cont=1;
+                                    cont2++;
                                     break;
                                 } else {
-                                    System.out.println("produto nao cadastrado");
-                                    break;
+                                    cont=0;
                                 }
                             }
+                            if(cont==0);
+                                System.out.println("produto nao cadastrado");
                             j++;
                             break;
                         }
@@ -77,7 +83,7 @@ public class Main {
                     }
             break;
             case 3:
-                for(i=0;i<5;i++){
+                for(i=0;i<cont2;i++){
                     System.out.println("venda "+i);
                     System.out.println(v1[i].data);
                     System.out.println(v1[i].produto);
@@ -87,7 +93,10 @@ public class Main {
                 break;
             }//swhitch
             System.out.println("deseja continuar '1'SIM '2' NAO");
-            w = ler.nextInt();
+            int y;
+            y=ler.nextInt();
+            if(y==2)
+                break;
         }//while   
     }//main
 }//class

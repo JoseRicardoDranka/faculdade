@@ -1,0 +1,12 @@
+Removido
+
+atributo Pontos da classe jogador
+
+
+adicinado
+
+atributo tempototalJ1 classe placar 
+
+atributo tempototalJ2 classe placar
+
+metodo tempo total classe placar

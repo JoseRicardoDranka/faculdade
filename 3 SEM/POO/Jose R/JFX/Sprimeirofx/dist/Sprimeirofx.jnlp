@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="Sprimeirofx.jnlp">
+  <information>
+    <title>Sprimeirofx</title>
+    <vendor>Informatica</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="Sprimeirofx.jar" size="2904" download="eager" />
+  </resources>
+  <jfx:javafx-desc  width="800" height="600" main-class="sprimeirofx.Sprimeirofx"  name="Sprimeirofx" />
+  <update check="always"/>
+</jnlp>
